@@ -1,0 +1,23 @@
+{
+  "name": "com.actionfit.sdk.thinkingdata.Editor.Tests",
+  "rootNamespace": "ActionFit.ThinkingData.Tests",
+  "references": [
+    "com.actionfit.custompackagemanager.Editor"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "UNITY_INCLUDE_TESTS"
+  ],
+  "versionDefines": [],
+  "noEngineReferences": false,
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}

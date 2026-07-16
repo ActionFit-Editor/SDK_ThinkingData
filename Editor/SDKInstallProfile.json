@@ -1,0 +1,222 @@
+{
+  "SchemaVersion": 1,
+  "ProfileId": "thinkingdata.analytics.unity",
+  "ProfileVersion": "3.4.2",
+  "Vendor": "ThinkingData",
+  "DisplayName": "ThinkingData Analytics Unity SDK",
+  "BridgePackageId": "com.actionfit.sdk.thinkingdata",
+  "MinimumUnityVersion": "2018.3",
+  "MaximumUnityVersion": "",
+  "LicenseUrl": "https://github.com/ThinkingDataAnalytics/unity-sdk/blob/c2246848bd759a67a53d2eae61b7c466b9ac6f71/LICENSE",
+  "SupportUrl": "https://github.com/ThinkingDataAnalytics/unity-sdk/issues",
+  "SupportedPlatforms": [
+    "Editor",
+    "Android",
+    "iOS"
+  ],
+  "AllowedDomains": [
+    "github.com"
+  ],
+  "Sources": [
+    {
+      "Id": "thinkingdata-unity-git",
+      "Kind": "git",
+      "Url": "https://github.com/ThinkingDataAnalytics/unity-sdk.git",
+      "ImmutableVersion": "",
+      "ImmutableRevision": "c2246848bd759a67a53d2eae61b7c466b9ac6f71",
+      "GitSubpath": "",
+      "PackageId": "com.thinkingdata.analytics",
+      "PackageVersion": "3.4.2",
+      "Sha256": "",
+      "CacheRelativePath": ""
+    }
+  ],
+  "Modules": [
+    {
+      "Id": "analytics-core",
+      "DisplayName": "ThinkingData Analytics Core",
+      "Required": true,
+      "DefaultSelected": true,
+      "Requires": []
+    }
+  ],
+  "Dependencies": [
+    {
+      "PackageId": "com.thinkingdata.analytics",
+      "SourceId": "thinkingdata-unity-git",
+      "ModuleId": "analytics-core",
+      "Order": 0
+    }
+  ],
+  "ScopedRegistries": [],
+  "DetectionRules": [
+    {
+      "Id": "installed-exact-git-dependency",
+      "Kind": "dependency",
+      "Value": "com.thinkingdata.analytics",
+      "ExpectedValue": "https://github.com/ThinkingDataAnalytics/unity-sdk.git#c2246848bd759a67a53d2eae61b7c466b9ac6f71",
+      "Classification": "adoptable",
+      "Message": "The exact immutable ThinkingData dependency already exists and can be adopted after review."
+    },
+    {
+      "Id": "legacy-core-assets",
+      "Kind": "assetPath",
+      "Value": "Assets/ThinkingAnalytics",
+      "ExpectedValue": "",
+      "Classification": "conflicting",
+      "Message": "Legacy ThinkingData Core source exists under Assets; inspect and approve its exact removal inventory before installing the UPM package."
+    },
+    {
+      "Id": "legacy-core-editor-inspectors",
+      "Kind": "assetPath",
+      "Value": "Assets/Editor/TDInspectors.cs",
+      "ExpectedValue": "",
+      "Classification": "conflicting",
+      "Message": "Legacy ThinkingData editor inspectors conflict with the official UPM package."
+    },
+    {
+      "Id": "legacy-core-editor-postprocess",
+      "Kind": "assetPath",
+      "Value": "Assets/Editor/TDPostprocessBuild.cs",
+      "ExpectedValue": "",
+      "Classification": "conflicting",
+      "Message": "Legacy ThinkingData post-build source conflicts with the official UPM package."
+    },
+    {
+      "Id": "legacy-core-editor-settings",
+      "Kind": "assetPath",
+      "Value": "Assets/Editor/TDSettings.cs",
+      "ExpectedValue": "",
+      "Classification": "conflicting",
+      "Message": "Legacy ThinkingData editor settings source conflicts with the official UPM package."
+    },
+    {
+      "Id": "legacy-core-android-analytics",
+      "Kind": "assetPath",
+      "Value": "Assets/Plugins/Android/TDAnalytics.aar",
+      "ExpectedValue": "",
+      "Classification": "conflicting",
+      "Message": "Legacy ThinkingData Android analytics binary conflicts with the official UPM package."
+    },
+    {
+      "Id": "legacy-core-android-core",
+      "Kind": "assetPath",
+      "Value": "Assets/Plugins/Android/TDCore.aar",
+      "ExpectedValue": "",
+      "Classification": "conflicting",
+      "Message": "Legacy ThinkingData Android core binary conflicts with the official UPM package."
+    },
+    {
+      "Id": "legacy-core-android-proxy",
+      "Kind": "assetPath",
+      "Value": "Assets/Plugins/Android/ThinkingAnalyticsProxy.java",
+      "ExpectedValue": "",
+      "Classification": "conflicting",
+      "Message": "Legacy ThinkingData Android proxy conflicts with the official UPM package."
+    },
+    {
+      "Id": "legacy-core-android-thirdparty",
+      "Kind": "assetPath",
+      "Value": "Assets/Plugins/Android/ThinkingSDK-thirdparty.aar",
+      "ExpectedValue": "",
+      "Classification": "conflicting",
+      "Message": "Legacy ThinkingData Android third-party bundle conflicts with the official UPM package."
+    },
+    {
+      "Id": "legacy-core-ios-thirdparty",
+      "Kind": "assetPath",
+      "Value": "Assets/Plugins/iOS/TAThirdParty",
+      "ExpectedValue": "",
+      "Classification": "conflicting",
+      "Message": "Legacy ThinkingData iOS third-party sources conflict with the official UPM package."
+    },
+    {
+      "Id": "legacy-core-ios-proxy",
+      "Kind": "assetPath",
+      "Value": "Assets/Plugins/iOS/ThinkingAnalytics.m",
+      "ExpectedValue": "",
+      "Classification": "conflicting",
+      "Message": "Legacy ThinkingData iOS proxy conflicts with the official UPM package."
+    },
+    {
+      "Id": "legacy-core-ios-core",
+      "Kind": "assetPath",
+      "Value": "Assets/Plugins/iOS/ThinkingDataCore",
+      "ExpectedValue": "",
+      "Classification": "conflicting",
+      "Message": "Legacy ThinkingData iOS core sources conflict with the official UPM package."
+    },
+    {
+      "Id": "legacy-core-ios-sdk",
+      "Kind": "assetPath",
+      "Value": "Assets/Plugins/iOS/ThinkingSDK",
+      "ExpectedValue": "",
+      "Classification": "conflicting",
+      "Message": "Legacy ThinkingData iOS SDK sources conflict with the official UPM package."
+    },
+    {
+      "Id": "legacy-core-pc",
+      "Kind": "assetPath",
+      "Value": "Assets/Plugins/PC",
+      "ExpectedValue": "",
+      "Classification": "conflicting",
+      "Message": "Legacy ThinkingData desktop plugin content conflicts with the official UPM package."
+    },
+    {
+      "Id": "legacy-core-openharmony",
+      "Kind": "assetPath",
+      "Value": "Assets/Plugins/OpenHarmony",
+      "ExpectedValue": "",
+      "Classification": "conflicting",
+      "Message": "Legacy ThinkingData OpenHarmony plugin content conflicts with the official UPM package."
+    },
+    {
+      "Id": "legacy-core-webgl-helper",
+      "Kind": "assetPath",
+      "Value": "Assets/Plugins/WxHelper.jslib",
+      "ExpectedValue": "",
+      "Classification": "conflicting",
+      "Message": "Legacy ThinkingData WebGL helper conflicts with the official UPM package."
+    },
+    {
+      "Id": "preserve-remote-config",
+      "Kind": "assetPath",
+      "Value": "Assets/TDRemoteConfig",
+      "ExpectedValue": "",
+      "Classification": "adoptable",
+      "Message": "TDRemoteConfig is a separately owned operational module and must be preserved during the core migration."
+    },
+    {
+      "Id": "preserve-strategy",
+      "Kind": "assetPath",
+      "Value": "Assets/TDStrategy",
+      "ExpectedValue": "",
+      "Classification": "adoptable",
+      "Message": "TDStrategy is a separately owned operational module and must be preserved during the core migration."
+    },
+    {
+      "Id": "preserve-analytics-setting",
+      "Kind": "assetPath",
+      "Value": "Assets/Resources/TDAnalyticSetting.asset",
+      "ExpectedValue": "",
+      "Classification": "adoptable",
+      "Message": "The project-owned ThinkingData settings asset must be preserved."
+    },
+    {
+      "Id": "preserve-project-adapter",
+      "Kind": "assetPath",
+      "Value": "Assets/_Project/_Infra/Analytics/ThinkingData",
+      "ExpectedValue": "",
+      "Classification": "adoptable",
+      "Message": "Project-owned ThinkingData analytics adapters must be preserved."
+    },
+    {
+      "Id": "preserve-ops-adapter",
+      "Kind": "assetPath",
+      "Value": "Assets/_Project/_Infra/Analytics/TD_Ops.cs",
+      "ExpectedValue": "",
+      "Classification": "adoptable",
+      "Message": "The project-owned TD operational-module adapter must be preserved."
+    }
+  ]
+}
