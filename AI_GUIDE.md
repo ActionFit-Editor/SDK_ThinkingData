@@ -3,7 +3,7 @@
 ## Package Identity
 
 - Package ID: `com.actionfit.sdk.thinkingdata`
-- Current package version at generation time: `1.0.0`
+- Current package version at generation time: `1.0.1`
 - Public repository: `https://github.com/ActionFit-Editor/SDK_ThinkingData.git`
 - Official SDK package ID: `com.thinkingdata.analytics`
 - Official SDK version: `3.4.2`
@@ -33,7 +33,7 @@ Run `Tests~/test_thinkingdata_migration_inspector.py` after changing its invento
 - Run Custom Package Manager package contract validation for `com.actionfit.sdk.thinkingdata`.
 - Run the package Editor tests in Unity.
 - Confirm the package remains source-only and repository visibility remains Public.
-- Publish only after `com.actionfit.custompackagemanager` version `1.1.95` is publicly resolvable.
+- Publish only after `com.actionfit.custompackagemanager` version `1.1.96` is publicly resolvable.
 - Repository creation, push, tag creation, catalog upsert, vendor installation, and project migration require the applicable explicit approval gates.
 
 ## Project Router Registration
