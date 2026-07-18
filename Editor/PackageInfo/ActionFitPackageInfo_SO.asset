@@ -23,7 +23,7 @@ MonoBehaviour:
     \uC804\uC6A9 \uBE0C\uB9AC\uC9C0 \uD328\uD0A4\uC9C0\uC785\uB2C8\uB2E4."
   _releaseNote: "- package.json\uC758 ActionFit dependency\uB97C \uCD5C\uC2E0 \uC900\uBE44
     \uBC84\uC804\uC73C\uB85C \uAC31\uC2E0\uD588\uC2B5\uB2C8\uB2E4: com.actionfit.custompackagemanager
-    1.1.96 -> 1.1.103.\n- dependency \uBCC0\uACBD\uACFC \uD568\uAED8 package version,
+    1.1.103 -> 1.1.106.\n- dependency \uBCC0\uACBD\uACFC \uD568\uAED8 package version,
     README Git UPM tag, AI_GUIDE.md version\uC744 \uC815\uB82C\uD574 publish \uC804
     contract \uAC80\uC99D\uC774 \uAC00\uB2A5\uD558\uB3C4\uB85D \uD588\uC2B5\uB2C8\uB2E4.\n-
     \uAE30\uC874 runtime/editor API \uAD6C\uD604\uC740 \uBCC0\uACBD\uD558\uC9C0 \uC54A\uC558\uC73C\uBA70

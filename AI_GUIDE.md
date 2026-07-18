@@ -3,7 +3,7 @@
 ## Package Identity
 
 - Package ID: `com.actionfit.sdk.thinkingdata`
-- Current package version at generation time: `1.0.2`
+- Current package version at generation time: `1.0.4`
 - Public repository: `https://github.com/ActionFit-Editor/SDK_ThinkingData.git`
 - Official SDK package ID: `com.thinkingdata.analytics`
 - Official SDK version: `3.4.2`

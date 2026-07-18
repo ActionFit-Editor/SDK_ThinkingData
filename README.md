@@ -9,7 +9,7 @@ Custom Package Manager `1.1.96`가 공개된 뒤 `Packages/manifest.json`에 다
 ```json
 {
   "dependencies": {
-    "com.actionfit.sdk.thinkingdata": "https://github.com/ActionFit-Editor/SDK_ThinkingData.git#1.0.2"
+    "com.actionfit.sdk.thinkingdata": "https://github.com/ActionFit-Editor/SDK_ThinkingData.git#1.0.4"
   }
 }
 ```
