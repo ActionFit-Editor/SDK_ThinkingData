@@ -1,6 +1,6 @@
 {
   "name": "com.actionfit.sdk.thinkingdata",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "displayName": "ActionFit ThinkingData SDK",
   "description": "Source-only ThinkingData Unity SDK install profile pinned to the Cat Merge compatible official release.",
   "unity": "6000.2",
@@ -8,6 +8,6 @@
     "name": "ActionFit"
   },
   "dependencies": {
-    "com.actionfit.custompackagemanager": "1.1.96"
+    "com.actionfit.custompackagemanager": "1.1.103"
   }
 }
